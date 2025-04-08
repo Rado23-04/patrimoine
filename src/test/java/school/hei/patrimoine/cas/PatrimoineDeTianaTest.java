@@ -9,19 +9,6 @@ import school.hei.patrimoine.modele.Patrimoine;
 import java.time.LocalDate;
 
 public class PatrimoineDeTianaTest {
-    /**
-     *   @Test
-     *     void patrimoineDeBakoEnFin2025EstCorrect() {
-     *         var cas = new PatrimoineBakoAu31Decembre2025();
-     *         LocalDate finAnnee = LocalDate.of(2025, 12, 31);
-     *
-     *         Patrimoine patrimoineFinAnnee = cas.get().projectionFuture(finAnnee);
-     *
-     *         Argent result = patrimoineFinAnnee.getValeurComptable();
-     *         System.out.println(result);
-     *
-     *     }
-     */
 
     @Test
     void patrimoineDeTianaFinMars(){
